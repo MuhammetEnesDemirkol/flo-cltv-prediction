@@ -1,30 +1,36 @@
-# FLO Projeleri - Müşteri Değeri Tahmini ve Segmentasyonu
-Bu projede, FLO'nun gerçek müşteri verileri kullanılarak iki temel analiz gerçekleştirilmiştir:
+# 📈 FLO - Customer Lifetime Value (CLTV) Prediction
 
-* CLTV Tahmini Projesi:
-BG/NBD ve Gamma-Gamma modelleri kullanılarak, müşterilerin gelecekte şirkete sağlayacakları potansiyel değerin tahmini yapılmıştır.
-* RFM Analizi Projesi:
-Müşteri verileri üzerinden Recency, Frequency ve Monetary metriklerinin hesaplanmasıyla, müşteri segmentasyonu gerçekleştirilmiş ve pazarlama stratejilerine yön verecek öngörüler elde edilmiştir.
+## 📖 Project Description
+This project focuses solely on predicting **Customer Lifetime Value (CLTV)** using real customer transaction data from FLO.
+The analysis applies **BG/NBD** and **Gamma-Gamma** probabilistic models to forecast both customer purchasing behavior and their expected monetary contributions.
 
-## Proje Hedefleri
+---
 
-* CLTV Tahmini
+## 🚀 Project Goals
+- Preprocess and clean customer data.
+- Handle outliers and perform feature engineering.
+- Estimate 3-month and 6-month purchase frequencies with the **BG/NBD model**.
+- Predict average transaction value using the **Gamma-Gamma model**.
+- Calculate 6-month CLTV scores.
+- Segment customers based on CLTV results.
+- Develop marketing strategies focused on high-value customers.
 
-* * Müşteri verilerini ön işleme tabi tutmak
-* * Aykırı değerleri baskılamak ve gerekli veri dönüşümlerini gerçekleştirmek
-* * BG/NBD modeli ile müşterilerin 3 ve 6 aylık satın alma beklentilerini hesaplamak
-* * Gamma-Gamma modeli ile müşterilerin ortalama bırakacakları değeri tahminlemek
-* * 6 aylık CLTV hesaplaması ve segmentlere ayırma işlemlerini gerçekleştirmek
-* * En yüksek CLTV’ye sahip müşteriler üzerinde odaklanmak
+---
 
-* RFM Analizi:
+## 🛠️ Technologies Used
+- Python
+- Pandas & NumPy
+- Lifetimes (BG/NBD and Gamma-Gamma Modeling)
+- Scikit-learn
+- Matplotlib & Seaborn
 
-* * Veriyi anlamlandırmak ve hazırlama sürecini tamamlamak
-* * Müşteri özelinde Recency, Frequency ve Monetary metriklerini hesaplamak
-* * Hesaplanan metrikleri skorlandırarak (1-5 arası) RF_SCORE oluşturmak
-* * Elde edilen skorlar doğrultusunda müşteri segmentleri tanımlamak
-* * Segmentlere yönelik aksiyon önerileri geliştirmek
+---
 
+## 📈 Results and Insights
+By predicting future purchases and average customer value, CLTV scores were generated.
+These insights enable FLO to optimize marketing strategies by focusing on the most valuable customers.
 
-## Katkıda Bulunanlar
-Muhammet Enes DEMIRKOL – Proje geliştiricisi
+---
+
+## 👨‍💼 Contributor
+**Muhammet Enes DEMIRKOL** – Project Developer
